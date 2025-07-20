@@ -232,7 +232,7 @@ def main():
     """
     # --- Page Title & Introduction ---
     st.title("FAAB Buddy: A FAAB Bidding Strategy Simulator")
-    st.markdown("A decision support tool to compare FAAB bidding strategies using Monte Carlo simulation. This enhanced version incorporates user feedback for improved logic, performance, and UI.")
+    st.markdown("A decision support tool to compare FAAB bidding strategies using Monte Carlo simulation.")
 
     # --- Sidebar UI Controls ---
     master_seed = st.sidebar.slider("Master Random Seed", 0, 1000, 42, key="master_seed", help="Set a seed for reproducible results.")
